@@ -1,4 +1,4 @@
-=== Blank: Blueprint for develop new WordPress plugin ===
+# Blank: Blueprint for develop new WordPress plugin
 Contributors: simonemanfre
 Tags: dynamic content, cache, issues
 Requires at least: 4.6
@@ -11,23 +11,23 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Blueprint for develop new WordPress plugin.
 
 
-== Description ==
+## Description
 
 Save time starting from Blank for develop new WordPress plugin.
 
 
-== Features ==
+## Features
 * Extremely lightweight. 
 * No JavaScript, no CSS.
 * No database queries.
 * Already registered options page
 
 
-== Security ==
+## Security
 * Blank is totally safe.
 
 
-== Changelog ==
+## Changelog
 
-= 0.0.1 =
-*Initial release
+### 0.0.1
+* Initial release
