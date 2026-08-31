@@ -1,10 +1,10 @@
 === Blank: Blueprint for develop new WordPress plugin ===
 Contributors: simonemanfre
 Tags: dynamic content, cache, issues
-Requires at least: 4.6
-Tested up to: 6.5
-Stable tag: 0.0.1
-Requires PHP: 5.5
+Requires at least: 5.5
+Tested up to: 7.1
+Stable tag: 0.0.2
+Requires PHP: 7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -28,6 +28,9 @@ Save time starting from Blank for develop new WordPress plugin.
 
 
 == Changelog ==
+
+= 0.0.2 =
+*Aggiunte costanti plugin, caricamento traduzioni, hook di activation/deactivation e markup base della pagina opzioni
 
 = 0.0.1 =
 *Initial release

@@ -19,5 +19,8 @@ Save time in WordPress plugin development.
 
 ## Changelog
 
+### 0.0.2
+* Aggiunte costanti plugin, caricamento traduzioni, hook di activation/deactivation e markup base della pagina opzioni
+
 ### 0.0.1
 * Initial release
