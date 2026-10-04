@@ -1,0 +1,18 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"landingPage": "/wp-admin/options-general.php?page=blank",
+	"preferredVersions": {
+		"php": "7.4",
+		"wp": "latest"
+	},
+	"features": {
+		"networking": true
+	},
+	"login": true,
+	"steps": [
+		{
+			"step": "activatePlugin",
+			"pluginPath": "wp-blank-plugin/wp-blank-plugin.php"
+		}
+	]
+}

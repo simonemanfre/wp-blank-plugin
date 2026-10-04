@@ -17,6 +17,18 @@ Save time in WordPress plugin development.
 * Blank is totally safe.
 
 
+## Sviluppo locale (WordPress Playground)
+
+Il file `blueprint.json` configura [WordPress Playground](https://wordpress.github.io/wordpress-playground/) (PHP 7.4, WP latest, login automatico, plugin attivato, landing sulla pagina Impostazioni).
+
+Dalla root del plugin:
+
+```bash
+npx @wp-playground/cli@latest server --auto-mount --blueprint=blueprint.json
+```
+
+`--auto-mount` monta la cartella corrente come plugin (`wp-content/plugins/wp-blank-plugin`), quindi le modifiche ai file sono immediate. Se rinomini il plugin, aggiorna `pluginPath` e `landingPage` nel blueprint.
+
 ## Changelog
 
 ### 0.0.2
